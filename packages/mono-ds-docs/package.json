@@ -1,6 +1,6 @@
 {
   "name": "mono-ds-docs",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "> TODO: description",
   "author": "Yuri Tavares Kobashigawa <yuri.kobashigawa@loft.com.br>",
   "homepage": "https://github.com/yuritk/monorepo-ds-boilerplate#readme",
@@ -23,7 +23,7 @@
     "docs:dev": "npm run storybook"
   },
   "dependencies": {
-    "mono-ds-components": "^0.0.5",
+    "mono-ds-components": "^0.0.6",
     "react": "^16.12.0",
     "react-dom": "^16.12.0"
   },
