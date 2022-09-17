@@ -7,5 +7,6 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Harsh Gupta",
-  "license": "ISC"
+  "license": "ISC",
+  "gitHead": "ee8212acb468f7b9eec1456a78576329f632c58e"
 }
