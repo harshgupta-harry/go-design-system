@@ -3,10 +3,11 @@
   "version": "0.0.7",
   "description": "asd",
   "main": "index.js",
+  "private": false,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Harsh Gupta",
   "license": "ISC",
-  "gitHead": "fbd3c20ef3b6c0893baa34abb9019fa190847d8b"
+  "gitHead": "fc2f84b691a479f18e7c3c97a2ba980f90c25645"
 }
