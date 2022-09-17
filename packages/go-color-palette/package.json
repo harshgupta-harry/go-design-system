@@ -9,5 +9,8 @@
   },
   "author": "Harsh Gupta",
   "license": "ISC",
-  "gitHead": "1e3a646aaa53a76a8531be19678c5dda1a103136"
+  "gitHead": "91d0f24266b9d55383c5a6b21e7fb9f8c0566690",
+  "publishConfig": {
+    "access": "public"
+  }
 }

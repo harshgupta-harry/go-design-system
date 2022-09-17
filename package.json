@@ -10,5 +10,8 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/harshgupta-harry/go-design-system.git"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
