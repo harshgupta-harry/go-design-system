@@ -1,5 +1,5 @@
 {
-  "name": "go-design-system",
+  "name": "go-design-systems",
   "private": false,
   "workspaces": [
     "packages/*"
