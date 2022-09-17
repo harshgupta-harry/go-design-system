@@ -1,6 +1,6 @@
 {
   "name": "@go-design-system/go-color-palette",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "asd",
   "main": "index.js",
   "scripts": {
@@ -8,5 +8,5 @@
   },
   "author": "Harsh Gupta",
   "license": "ISC",
-  "gitHead": "e5e0b0657531172497689807bb992a7c476a5300"
+  "gitHead": "fbd3c20ef3b6c0893baa34abb9019fa190847d8b"
 }
