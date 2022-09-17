@@ -1,5 +1,5 @@
 {
-  "name": "mono-ds-components",
+  "name": "mono-ds-componentssss",
   "version": "0.0.6",
   "description": "> TODO: description",
   "author": "Yuri Tavares Kobashigawa <yuri.kobashigawa@loft.com.br>",
@@ -35,5 +35,6 @@
     "react": "^16.12.0",
     "rollup": "^1.27.11",
     "rollup-plugin-babel": "^4.3.3"
-  }
+  },
+  "gitHead": "4c14ba3992681b8f40aea684275c36b336ea7e74"
 }

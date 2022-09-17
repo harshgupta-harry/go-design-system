@@ -1,5 +1,5 @@
 {
-  "name": "mono-ds-docs",
+  "name": "mono-ds-docssss",
   "version": "0.0.6",
   "description": "> TODO: description",
   "author": "Yuri Tavares Kobashigawa <yuri.kobashigawa@loft.com.br>",
@@ -34,5 +34,6 @@
     "@babel/core": "^7.7.5",
     "@storybook/react": "^5.2.8",
     "babel-loader": "^8.0.6"
-  }
+  },
+  "gitHead": "4c14ba3992681b8f40aea684275c36b336ea7e74"
 }

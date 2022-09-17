@@ -1,5 +1,5 @@
 {
-  "name": "mono-ds-tokens",
+  "name": "mono-ds-tokenssss",
   "version": "0.0.6",
   "description": "> TODO: description",
   "author": "Yuri Tavares Kobashigawa <yuri.kobashigawa@loft.com.br>",
@@ -22,5 +22,6 @@
   },
   "bugs": {
     "url": "https://github.com/yuritk/monorepo-ds-boilerplate/issues"
-  }
+  },
+  "gitHead": "4c14ba3992681b8f40aea684275c36b336ea7e74"
 }
