@@ -24,7 +24,10 @@
     "docs:dev": "npm run compile:watch"
   },
   "dependencies": {
-    "@go-design-system/theme": "^0.0.6"
+    "@chakra-ui/avatar": "^2.1.0",
+    "go-design-system-theme": "^0.0.6",
+    "i": "^0.3.7",
+    "npm": "^8.19.2"
   },
   "bugs": {
     "url": "https://github.com/harshgupta-harry/go-design-system/issues"

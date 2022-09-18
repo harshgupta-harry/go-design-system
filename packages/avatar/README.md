@@ -5,7 +5,7 @@
 ## Usage
 
 ```
-const monoDsComponents = require('mono-ds-components');
+import avatar from 'go-design-system-avatar';
 
 // TODO: DEMONSTRATE API
 ```

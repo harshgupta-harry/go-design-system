@@ -4,8 +4,10 @@
 
 ## Usage
 
+import tokens from '@go-design-system/theme';
+
 ```
-const monoDsTokens = require('mono-ds-tokens');
+
 
 // TODO: DEMONSTRATE API
 ```
