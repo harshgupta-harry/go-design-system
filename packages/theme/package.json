@@ -1,5 +1,5 @@
 {
-  "name": "@go-design-system/theme",
+  "name": "go-design-system-theme",
   "version": "0.0.12",
   "description": "> TODO: description",
   "author": "Harsh Gupta <guptaharsh0506@gmail.com.br>",
@@ -23,5 +23,5 @@
   "bugs": {
     "url": "https://github.com/harshgupta-harry/go-design-system/issues"
   },
-  "gitHead": "a3d45a4e3d353f628b289f830bb11e5c92960a64"
+  "gitHead": "69c9ca938b5effefa4edc42872edf5843c7cf2fa"
 }

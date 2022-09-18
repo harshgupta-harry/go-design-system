@@ -1,5 +1,5 @@
 {
-  "name": "@go-design-system/avatar",
+  "name": "go-design-system-avatar",
   "version": "0.0.12",
   "description": "description",
   "author": "Harsh Gupta <guptaharsh0506@gmail.com.br>",
@@ -36,5 +36,5 @@
     "rollup": "^1.27.11",
     "rollup-plugin-babel": "^4.3.3"
   },
-  "gitHead": "a3d45a4e3d353f628b289f830bb11e5c92960a64"
+  "gitHead": "69c9ca938b5effefa4edc42872edf5843c7cf2fa"
 }
