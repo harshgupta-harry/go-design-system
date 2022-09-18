@@ -1,9 +1,9 @@
 {
-  "name": "mono-ds-componentssss",
+  "name": "@go-design-system/avatar",
   "version": "0.0.7",
-  "description": "> TODO: description",
-  "author": "Yuri Tavares Kobashigawa <yuri.kobashigawa@loft.com.br>",
-  "homepage": "https://github.com/yuritk/monorepo-ds-boilerplate#readme",
+  "description": "description",
+  "author": "Harsh Gupta <guptaharsh0506@gmail.com.br>",
+  "homepage": "https://github.com/harshgupta-harry/go-design-system#readme",
   "license": "ISC",
   "main": "dist/index.js",
   "directories": {
@@ -15,7 +15,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yuritk/monorepo-ds-boilerplate.git"
+    "url": "git+https://github.com/harshgupta-harry/go-design-system.git"
   },
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1",
@@ -24,10 +24,10 @@
     "docs:dev": "npm run compile:watch"
   },
   "dependencies": {
-    "mono-ds-tokens": "^0.0.6"
+    "@go-design-system/theme": "^0.0.6"
   },
   "bugs": {
-    "url": "https://github.com/yuritk/monorepo-ds-boilerplate/issues"
+    "url": "https://github.com/harshgupta-harry/go-design-system/issues"
   },
   "devDependencies": {
     "@babel/core": "^7.7.5",

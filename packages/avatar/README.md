@@ -1,6 +1,6 @@
-# `mono-ds-components`
+# `go-avatar`
 
-> TODO: description
+> Description here
 
 ## Usage
 

@@ -1,7 +1,7 @@
-"use strict";
+'use strict';
 
 import React from 'react';
-import tokens from "mono-ds-tokens";
+import tokens from '@go-design-system/go-theme';
 
 export function Button(props) {
   const { children } = props;
@@ -9,7 +9,7 @@ export function Button(props) {
   const buttonStyle = {
     color: tokens.palette.white,
     backgroundColor: tokens.palette.primary,
-    padding: tokens.spacing.small
+    padding: tokens.spacing.small,
   };
 
   return <button style={buttonStyle}>{children}</button>;

@@ -1,6 +1,6 @@
-# `mono-ds-tokens`
+# `go-theme`
 
-> TODO: description
+> Description here
 
 ## Usage
 
