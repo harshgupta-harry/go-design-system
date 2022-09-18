@@ -1,7 +1,7 @@
 'use strict';
 
 import React from 'react';
-import tokens from '@go-design-system/theme';
+import tokens from 'go-design-system-theme';
 import { Avatar, AvatarGroup } from '@chakra-ui/avatar';
 export function Button(props) {
   const { children } = props;
