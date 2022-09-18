@@ -4,7 +4,7 @@
 
 ## Usage
 
-import tokens from '@go-design-system/theme';
+import tokens from 'go-design-system-theme';
 
 ```
 

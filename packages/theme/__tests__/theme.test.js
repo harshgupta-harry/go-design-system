@@ -2,6 +2,6 @@
 
 const theme = require('../src');
 
-describe('@go-design-system/theme', () => {
+describe('go-design-system-theme', () => {
   it('needs tests');
 });
