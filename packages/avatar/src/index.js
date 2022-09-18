@@ -1,7 +1,7 @@
 'use strict';
 
 import React from 'react';
-import tokens from '@go-design-system/go-theme';
+import tokens from '@go-design-system/theme';
 
 export function Button(props) {
   const { children } = props;
