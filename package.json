@@ -1,5 +1,5 @@
 {
-  "name": "go-design-system",
+  "name": "root",
   "private": true,
   "devDependencies": {
     "lerna": "^3.19.0"
