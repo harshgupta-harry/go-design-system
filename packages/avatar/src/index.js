@@ -4,14 +4,6 @@ import React from 'react';
 import tokens from 'go-design-system-theme';
 import { Avatar, AvatarGroup } from '@chakra-ui/avatar';
 export function Button(props) {
-  const { children } = props;
-
-  const buttonStyle = {
-    color: tokens.palette.white,
-    backgroundColor: tokens.palette.primary,
-    padding: tokens.spacing.small,
-  };
-
   return (
     <AvatarGroup size="md" max={2}>
       <Avatar name="Ryan Florence" src="https://bit.ly/ryan-florence" />
