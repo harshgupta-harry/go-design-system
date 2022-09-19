@@ -1,6 +1,9 @@
 {
   "name": "root",
   "private": true,
+  "scripts": {
+    "commitAndPublish": "git add . && git commit -m 'stage' && git push origin master && lerna publish"
+  },
   "devDependencies": {
     "lerna": "^3.19.0"
   },
