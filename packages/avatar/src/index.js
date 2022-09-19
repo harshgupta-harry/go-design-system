@@ -13,7 +13,14 @@ export function Avatar(props) {
 
   const renderAvatars = () => {
     return avatars.map((avatar, index) => {
-      return <AvatarNPM name={avatar.name} src={avatar.url} {...avatarProps} />;
+      return (
+        <AvatarNPM
+          name={avatar.name}
+          src={avatar.url}
+          bg={tokens.palette.primary}
+          {...avatarProps}
+        />
+      );
     });
   };
   return (

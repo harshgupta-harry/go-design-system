@@ -1,5 +1,5 @@
 import React from 'react';
-import 'go-design-system-theme';
+import tokens from 'go-design-system-theme';
 import { AvatarGroup, Avatar as Avatar$1 } from '@chakra-ui/avatar';
 
 function _extends() {
@@ -32,7 +32,8 @@ function Avatar(props) {
     return avatars.map((avatar, index) => {
       return React.createElement(Avatar$1, _extends({
         name: avatar.name,
-        src: avatar.url
+        src: avatar.url,
+        bg: tokens.palette.primary
       }, avatarProps));
     });
   };
