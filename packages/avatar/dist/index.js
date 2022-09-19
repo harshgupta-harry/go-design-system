@@ -1,6 +1,6 @@
 import React from 'react';
 import tokens from 'go-design-system-theme';
-import { AvatarGroup, Avatar as Avatar$1 } from '@chakra-ui/avatar';
+import { AvatarGroup, Avatar } from '@chakra-ui/avatar';
 
 function _extends() {
   _extends = Object.assign || function (target) {
@@ -20,7 +20,7 @@ function _extends() {
   return _extends.apply(this, arguments);
 }
 
-function Avatar(props) {
+function _Avatar(props) {
   const {
     avatars = [],
     max = 2,
@@ -30,7 +30,7 @@ function Avatar(props) {
 
   const renderAvatars = () => {
     return avatars.map((avatar, index) => {
-      return React.createElement(Avatar$1, _extends({
+      return React.createElement(Avatar, _extends({
         name: avatar.name,
         src: avatar.url,
         bg: tokens.palette.primary
@@ -44,4 +44,4 @@ function Avatar(props) {
   }, avatarGroupProps), renderAvatars());
 }
 
-export { Avatar };
+export default _Avatar;

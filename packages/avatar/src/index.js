@@ -2,8 +2,9 @@
 
 import React from 'react';
 import tokens from 'go-design-system-theme';
-import { Avatar as AvatarNPM, AvatarGroup } from '@chakra-ui/avatar';
-export function Avatar(props) {
+import { Avatar, AvatarGroup } from '@chakra-ui/avatar';
+
+function _Avatar(props) {
   const {
     avatars = [],
     max = 2,
@@ -14,7 +15,7 @@ export function Avatar(props) {
   const renderAvatars = () => {
     return avatars.map((avatar, index) => {
       return (
-        <AvatarNPM
+        <Avatar
           name={avatar.name}
           src={avatar.url}
           bg={tokens.palette.primary}
@@ -29,3 +30,5 @@ export function Avatar(props) {
     </AvatarGroup>
   );
 }
+
+export default _Avatar;
