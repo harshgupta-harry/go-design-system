@@ -2,7 +2,7 @@
 
 import React from 'react';
 import tokens from 'go-design-system-theme';
-import { AvatarNPM, AvatarGroup } from '@chakra-ui/avatar';
+import { Avatar as AvatarNPM, AvatarGroup } from '@chakra-ui/avatar';
 export function Avatar(props) {
   return (
     <AvatarGroup size="md" max={2}>
