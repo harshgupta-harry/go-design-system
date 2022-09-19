@@ -26,6 +26,9 @@
   "dependencies": {
     "@chakra-ui/avatar": "^2.1.0",
     "@chakra-ui/system": "^2.2.9",
+    "@emotion/react": "^11.10.4",
+    "@emotion/styled": "^11.10.4",
+    "framer-motion": "^7.3.5",
     "go-design-system-theme": "^0.0.6",
     "i": "^0.3.7",
     "npm": "^8.19.2"
