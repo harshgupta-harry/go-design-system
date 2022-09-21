@@ -5,14 +5,15 @@ function _ActionCard(props) {
   const {
     title,
     ctaText,
-    key = new Date()
+    key = new Date(),
+    icon
   } = props;
   return React.createElement("div", {
     key: `${key}`,
     className: 'go-design-system-action-card-container'
   }, React.createElement("div", {
     className: "d-flex"
-  }, link.icon, React.createElement("div", {
+  }, icon, React.createElement("div", {
     style: {
       marginLeft: 10
     }

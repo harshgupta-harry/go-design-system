@@ -5,12 +5,12 @@ import Avatar from 'go-design-system-avatar';
 import './index.module.scss';
 
 function _ActionCard(props) {
-  const { title, ctaText, key = new Date() } = props;
+  const { title, ctaText, key = new Date(), icon } = props;
 
   return (
     <div key={`${key}`} className={'go-design-system-action-card-container'}>
       <div className="d-flex">
-        {link.icon}
+        {icon}
         <div style={{ marginLeft: 10 }}>
           <div className={'title'}>{title}</div>
           <div className={'cta-text'}>{ctaText}</div>
