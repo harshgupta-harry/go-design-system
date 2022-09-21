@@ -1,6 +1,7 @@
 import babel from "rollup-plugin-babel";
+import scss from 'rollup-plugin-scss'
 
-const plugins = [babel({ exclude: "node_modules/**" })];
+const plugins = [babel({ exclude: "node_modules/**" }), scss];
 
 export default [
   {
