@@ -1,0 +1,48 @@
+{
+  "name": "go-design-system-button",
+  "version": "0.0.29",
+  "description": "description",
+  "author": "Harsh Gupta <guptaharsh0506@gmail.com.br>",
+  "homepage": "https://github.com/harshgupta-harry/go-design-system#readme",
+  "license": "ISC",
+  "main": "dist/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/harshgupta-harry/go-design-system.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1",
+    "compile": "rollup -c",
+    "compile:watch": "rollup -c -w",
+    "docs:dev": "npm run compile:watch"
+  },
+  "dependencies": {
+    "@chakra-ui/avatar": "^2.1.0",
+    "@chakra-ui/react": "^2.3.3",
+    "@chakra-ui/system": "^2.2.9",
+    "@emotion/react": "^11.10.4",
+    "@emotion/styled": "^11.10.4",
+    "framer-motion": "^7.3.5",
+    "go-design-system-theme": "^0.0.6",
+    "i": "^0.3.7",
+    "npm": "^8.19.2"
+  },
+  "bugs": {
+    "url": "https://github.com/harshgupta-harry/go-design-system/issues"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.7.5",
+    "@babel/preset-react": "^7.7.4",
+    "react": "^16.12.0",
+    "rollup": "^1.27.11",
+    "rollup-plugin-babel": "^4.3.3"
+  },
+  "gitHead": "69c9ca938b5effefa4edc42872edf5843c7cf2fa"
+}
