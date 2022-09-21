@@ -1,7 +1,7 @@
 'use strict';
 
 import React from 'react';
-import { Avatar } from 'go-design-system-avatar';
+import Avatar from 'go-design-system-avatar';
 
 function _ActionCard(props) {
   const { title, ctaText, key = new Date() } = props;

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Avatar } from 'go-design-system-avatar';
+import Avatar from 'go-design-system-avatar';
 
 function _ActionCard(props) {
   const {
