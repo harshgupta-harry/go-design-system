@@ -8,12 +8,7 @@ function _Button(props) {
   const { title } = props;
 
   return (
-    <Button
-      leftIcon={<EmailIcon />}
-      colorScheme={tokens.palette.primary}
-      variant="solid"
-      {...props}
-    >
+    <Button colorScheme={tokens.palette.primary} variant="solid" {...props}>
       {title}
     </Button>
   );

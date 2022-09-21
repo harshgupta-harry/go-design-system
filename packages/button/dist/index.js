@@ -25,7 +25,6 @@ function _Button(props) {
     title
   } = props;
   return React.createElement(Button, _extends({
-    leftIcon: React.createElement(EmailIcon, null),
     colorScheme: tokens.palette.primary,
     variant: "solid"
   }, props), title);
