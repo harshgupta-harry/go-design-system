@@ -1,5 +1,5 @@
 {
-  "name": "go-design-system-button",
+  "name": "go-design-system-action-card",
   "version": "0.0.31",
   "description": "description",
   "author": "Harsh Gupta <guptaharsh0506@gmail.com.br>",
@@ -31,6 +31,7 @@
     "@emotion/styled": "^11.10.4",
     "framer-motion": "^7.3.5",
     "go-design-system-theme": "^0.0.6",
+    "go-design-system-avatar": "^0.0.32",
     "i": "^0.3.7",
     "npm": "^8.19.2"
   },
