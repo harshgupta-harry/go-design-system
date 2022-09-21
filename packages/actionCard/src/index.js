@@ -9,7 +9,7 @@ function _ActionCard(props) {
   return (
     <div key={`${key}`} className={styles['quick-link-container']}>
       <div className="d-flex">
-        {link?.icon}
+        {link.icon}
         <div style={{ marginLeft: 10 }}>
           <div className={styles['title']}>{title}</div>
           <div className={styles['cta-text']}>{ctaText}</div>
