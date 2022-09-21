@@ -1,15 +1,16 @@
-.quick-link-container {
+.go-design-system-action-card-container {
   margin-top: 20px;
   display: flex;
   justify-content: space-between;
+  .title {
+    font-weight: 600;
+    font-size: 14px;
+  }
+  .cta-text {
+    color: #2684ff;
+    font-weight: 600;
+    font-size: 14px;
+    cursor: pointer;
+  }
 }
-.title {
-  font-weight: 600;
-  font-size: 14px;
-}
-.cta-text {
-  color: #2684ff;
-  font-weight: 600;
-  font-size: 14px;
-  cursor: pointer;
-}
+

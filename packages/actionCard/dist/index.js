@@ -9,7 +9,7 @@ function _ActionCard(props) {
   } = props;
   return React.createElement("div", {
     key: `${key}`,
-    className: styles['quick-link-container']
+    className: 'go-design-system-action-card-container'
   }, React.createElement("div", {
     className: "d-flex"
   }, link.icon, React.createElement("div", {
@@ -17,9 +17,9 @@ function _ActionCard(props) {
       marginLeft: 10
     }
   }, React.createElement("div", {
-    className: styles['title']
+    className: 'title'
   }, title), React.createElement("div", {
-    className: styles['cta-text']
+    className: 'cta-text'
   }, ctaText))), React.createElement(Avatar, {
     max: 3,
     avatarGroupProps: {

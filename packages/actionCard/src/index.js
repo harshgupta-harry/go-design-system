@@ -8,12 +8,12 @@ function _ActionCard(props) {
   const { title, ctaText, key = new Date() } = props;
 
   return (
-    <div key={`${key}`} className={styles['quick-link-container']}>
+    <div key={`${key}`} className={'go-design-system-action-card-container'}>
       <div className="d-flex">
         {link.icon}
         <div style={{ marginLeft: 10 }}>
-          <div className={styles['title']}>{title}</div>
-          <div className={styles['cta-text']}>{ctaText}</div>
+          <div className={'title'}>{title}</div>
+          <div className={'cta-text'}>{ctaText}</div>
         </div>
       </div>
       <Avatar
