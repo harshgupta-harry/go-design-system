@@ -1,6 +1,6 @@
 {
   "name": "go-design-system-folder-details-card",
-  "version": "0.0.37",
+  "version": "0.0.38",
   "description": "description",
   "author": "Harsh Gupta <guptaharsh0506@gmail.com.br>",
   "homepage": "https://github.com/harshgupta-harry/go-design-system#readme",
@@ -30,7 +30,7 @@
     "@emotion/react": "^11.10.4",
     "@emotion/styled": "^11.10.4",
     "framer-motion": "^7.3.5",
-    "go-design-system-avatar": "^0.0.37",
+    "go-design-system-avatar": "^0.0.38",
     "go-design-system-theme": "^0.0.6",
     "i": "^0.3.7",
     "npm": "^8.19.2",
