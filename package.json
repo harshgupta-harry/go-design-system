@@ -2,12 +2,52 @@
   "name": "root",
   "private": true,
   "scripts": {
-    "commitAndPublish": "lerna run compile --stream && git add . && git commit -m 'stage' && git push origin master && lerna publish"
+    "commitAndPublish": "lerna run compile --stream && git add . && git commit -m 'stage' && git push origin master && lerna publish",
+    "compile": "lerna run compile --stream",
+    "test": "react-scripts test",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   },
   "devDependencies": {
-    "lerna": "^3.19.0"
+    "@babel/core": "7.7.5",
+    "@babel/preset-react": "7.7.4",
+    "@storybook/addon-actions": "6.5.12",
+    "@storybook/addon-essentials": "6.5.12",
+    "@storybook/addon-interactions": "6.5.12",
+    "@storybook/addon-links": "6.5.12",
+    "@storybook/builder-webpack4": "6.5.12",
+    "@storybook/builder-webpack5": "6.5.12",
+    "@storybook/manager-webpack4": "6.5.12",
+    "@storybook/manager-webpack5": "6.5.12",
+    "@storybook/node-logger": "6.5.12",
+    "@storybook/preset-create-react-app": "3.2.0",
+    "@storybook/react": "6.5.12",
+    "@storybook/testing-library": "0.0.13",
+    "@testing-library/jest-dom": "5.16.5",
+    "@testing-library/react": "13.3.0",
+    "@testing-library/user-event": "13.5.0",
+    "lerna": "3.19.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-scripts": "5.0.1"
   },
   "workspaces": [
     "packages/*"
-  ]
+  ],
+  "jest": {
+    "collectCoverageFrom": ["packages"]
+  },
+  "dependencies": {},
+  "eslintConfig": {
+    "overrides": [
+      {
+        "files": [
+          "**/*.stories.*"
+        ],
+        "rules": {
+          "import/no-anonymous-default-export": "off"
+        }
+      }
+    ]
+  }
 }

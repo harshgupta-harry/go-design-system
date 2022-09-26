@@ -3,6 +3,7 @@
 import React from 'react';
 import tokens from 'go-design-system-theme';
 import { Avatar, AvatarGroup } from '@chakra-ui/avatar';
+import { ChakraProvider } from '@chakra-ui/react';
 
 function _Avatar(props) {
   const {
@@ -25,9 +26,11 @@ function _Avatar(props) {
     });
   };
   return (
-    <AvatarGroup size="md" max={max} {...avatarGroupProps}>
-      {renderAvatars()}
-    </AvatarGroup>
+    <ChakraProvider>
+      <AvatarGroup size="md" max={max} {...avatarGroupProps}>
+        {renderAvatars()}
+      </AvatarGroup>
+    </ChakraProvider>
   );
 }
 

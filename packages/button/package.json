@@ -19,6 +19,7 @@
   },
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1",
+    "test2": "react-scripts test",
     "compile": "rollup -c",
     "compile:watch": "rollup -c -w",
     "docs:dev": "npm run compile:watch"
@@ -29,6 +30,8 @@
     "@chakra-ui/system": "^2.2.9",
     "@emotion/react": "^11.10.4",
     "@emotion/styled": "^11.10.4",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
     "framer-motion": "^7.3.5",
     "go-design-system-theme": "^0.0.6",
     "i": "^0.3.7",

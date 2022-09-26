@@ -1,0 +1,51 @@
+.main-container {
+  margin-top: 30px;
+  width: 100%;
+  display: flex;
+  flex-direction: column; }
+
+.heading {
+  font-weight: 600;
+  font-size: 16px; }
+
+.folder-container {
+  cursor: pointer;
+  width: 32%;
+  margin-top: 10px;
+  margin-right: 10px;
+  border-radius: 8px;
+  padding: 5px 10px;
+  position: relative;
+  height: 60px; }
+  .folder-container .time-stamp {
+    color: #474a4b;
+    font-size: 12px; }
+  .folder-container .folder-name {
+    font-size: 16px; }
+  .folder-container .folder-icon {
+    position: absolute;
+    top: 0px;
+    right: 10px; }
+  .folder-container .elipses-icon {
+    display: none;
+    position: absolute;
+    top: 0px;
+    right: 10px; }
+  .folder-container .copy-container {
+    display: none;
+    align-items: center; }
+    .folder-container .copy-container span {
+      margin-left: 5px;
+      font-size: 14px;
+      color: #1877f2; }
+
+.folder-container:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
+  .folder-container:hover .elipses-icon {
+    display: block; }
+  .folder-container:hover .folder-icon {
+    display: none; }
+  .folder-container:hover .time-stamp {
+    display: none; }
+  .folder-container:hover .copy-container {
+    display: flex; }

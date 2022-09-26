@@ -1,45 +1,51 @@
 import React from 'react';
 import Avatar from 'go-design-system-avatar';
+import styled from 'styled-components';
+import { ChakraProvider } from '@chakra-ui/react';
 
 function _ActionCard(props) {
   const {
     title,
     ctaText,
     key = new Date(),
-    icon
+    icon,
+    avatars = []
   } = props;
-  return React.createElement("div", {
-    key: `${key}`,
-    className: 'go-design-system-action-card-container'
-  }, React.createElement("div", {
-    className: "d-flex"
-  }, icon, React.createElement("div", {
+  const MainContainer = styled.div`
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+  `;
+  const SubContainer = styled.div`
+    display: flex;
+  `;
+  const Title = styled.div`
+    font-weight: 600;
+    font-size: 14px;
+  `;
+  const CtaText = styled.div`
+    color: #2684ff;
+    font-weight: 600;
+    font-size: 14px;
+    cursor: pointer;
+  `;
+  return React.createElement(ChakraProvider, null, React.createElement(MainContainer, {
+    key: `${key}`
+  }, React.createElement(SubContainer, null, icon, React.createElement("div", {
     style: {
       marginLeft: 10
     }
-  }, React.createElement("div", {
+  }, React.createElement(Title, {
     className: 'title'
-  }, title), React.createElement("div", {
+  }, title), React.createElement(CtaText, {
     className: 'cta-text'
   }, ctaText))), React.createElement(Avatar, {
     max: 3,
     avatarGroupProps: {
       size: 'sm'
     },
-    avatars: [{
-      url: 'https://bit.ly/sage-adebayo',
-      name: 'Segun Adebayo'
-    }, {
-      url: 'https://bit.ly/kent-c-dodds',
-      name: 'Kent Dodds'
-    }, {
-      url: 'Prosper Otemuyiwa',
-      name: 'https://bit.ly/prosper-baba'
-    }, {
-      url: 'https://bit.ly/code-beast',
-      name: 'Christian Nwamba'
-    }]
-  }));
+    avatars: avatars
+  })));
 }
 
 export default _ActionCard;

@@ -1,6 +1,7 @@
 import React from 'react';
 import tokens from 'go-design-system-theme';
 import { AvatarGroup, Avatar } from '@chakra-ui/avatar';
+import { ChakraProvider } from '@chakra-ui/react';
 
 function _extends() {
   _extends = Object.assign || function (target) {
@@ -38,10 +39,10 @@ function _Avatar(props) {
     });
   };
 
-  return React.createElement(AvatarGroup, _extends({
+  return React.createElement(ChakraProvider, null, React.createElement(AvatarGroup, _extends({
     size: "md",
     max: max
-  }, avatarGroupProps), renderAvatars());
+  }, avatarGroupProps), renderAvatars()));
 }
 
 export default _Avatar;

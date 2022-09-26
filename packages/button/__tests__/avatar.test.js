@@ -1,7 +1,9 @@
-'use strict';
+import React from 'react';
+import {render, screen} from '@testing-library/react'
+// import userEvent from '@testing-library/user-event'
+import '@testing-library/jest-dom'
+// import Fetch from './fetch'
 
-const avatar = require('../dist');
-
-describe('avatar', () => {
-  it('needs tests');
-});
+test('loads and displays greeting', async () => {
+  render(<input placeholder='asd' />)
+})
